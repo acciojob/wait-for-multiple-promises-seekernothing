@@ -1,9 +1,9 @@
-//your JS code here. If required.
 // Select the table body
 const outputTable = document.getElementById("output");
 
-// Add the default loading row
+// Add the default loading row with id="loading"
 const loadingRow = document.createElement("tr");
+loadingRow.id = "loading"; // Add the id
 loadingRow.innerHTML = `<td colspan="2">Loading...</td>`;
 outputTable.appendChild(loadingRow);
 
